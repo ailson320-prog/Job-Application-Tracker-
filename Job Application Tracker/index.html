@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Job Application Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Job Application Tracker</h1>
+        <p class="subtitle">
+            Manage your job search in one place.
+        </p>
+
+        <!-- Dashboard Statistics -->
+        <section class="dashboard-stats">
+
+            <div class="stat-card">
+                <h3>Total Applications</h3>
+                <p id="totalJobs">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Interviews</h3>
+                <p id="totalInterviews">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Offers</h3>
+                <p id="totalOffers">0</p>
+            </div>
+
+        </section>
+
+        <!-- Add Job Form -->
+        <form id="jobForm">
+
+            <label for="companyName">
+                Company Name
+            </label>
+
+            <input type="text" id="companyName" placeholder="Enter company name" required>
+
+            <label for="jobTitle">
+                Job Title
+            </label>
+
+            <input type="text" id="jobTitle" placeholder="Enter job title" required>
+
+            <button type="submit">
+                Add Job
+            </button>
+
+        </form>
+
+        <!-- Search and Filters -->
+        <section class="filter-section">
+
+            <h2>My Job Applications</h2>
+
+            <div class="filter-controls">
+
+                <input type="text" id="searchInput" placeholder="Search by company or job title..."
+                    aria-label="Search job applications">
+
+                <select id="statusFilter" aria-label="Filter by application status">
+                    <option value="All">All Statuses</option>
+                    <option value="Applied">Applied</option>
+                    <option value="Interviewing">Interviewing</option>
+                    <option value="Offered">Offered</option>
+                    <option value="Rejected">Rejected</option>
+                </select>
+
+            </div>
+
+            <p id="resultsCount" aria-live="polite"></p>
+
+        </section>
+
+        <!-- Job Cards -->
+        <section id="jobList" aria-live="polite"></section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
