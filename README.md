@@ -101,14 +101,6 @@ job-application-tracker/
 
 No additional dependencies or installation are required.
 
-## Live Demo
-
-Live website: Coming soon
-
-## Screenshot
-
-A screenshot of the completed application will be added here.
-
 ## Future Improvements
 
 Potential enhancements include:
