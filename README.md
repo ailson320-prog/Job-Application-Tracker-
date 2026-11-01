@@ -82,20 +82,28 @@ This project demonstrates practical experience with:
 ## Project Structure
 
 ```text
-job-application-tracker/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+Job-Application-Tracker-/
+├── README.md
+└── Job Application Tracker/
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── README.md
 ```
 
 ## Getting Started
 
 1. Clone the repository:
 
-   `git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git`
+   ```bash
+   git clone https://github.com/ailson320-prog/Job-Application-Tracker-.git
+   ```
 
-2. Open the project folder.
+2. Open the application folder:
+
+   ```bash
+   cd "Job-Application-Tracker-/Job Application Tracker"
+   ```
 
 3. Open `index.html` in your browser.
 
